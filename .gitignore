@@ -11,5 +11,11 @@ broadcast/
 # Docs
 docs/
 
+# Ignores zkSync files
+out/
+zkout/
+cache/
+anvil-zksync.log
+.cache/
 # Dotenv file
 .env
