@@ -5,4 +5,8 @@ libs = ["lib"]
 account = "kitty-dev"
 rpc_url = "${RPC_URL}"
 
+[profile.sepolia]
+rpc_url = "${SEPOLIA_RPC_URL}"
+account = "kitty-sepolia"
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
